@@ -70,7 +70,7 @@ for (i = 0; i < 10; ++i)
 
 // -------------------------------
 
-/// Printing 10 values after 1 second of delay
+// Printing 10 values after 1 second of delay
 
 
 var i;
