@@ -1,0 +1,62 @@
+<!DOCTYPE html>     <!-- IMPORTANT -->
+
+<head>
+<title>NMG</title>
+<script src="interactive.js"></script>
+<script src="date.js"></script>
+<script src="firstelements.js"></script>
+<script src="randomimage.js" defer></script>
+<script src="tablemodification.js" defer></script>
+<script
+  src="https://code.jquery.com/jquery-3.4.0.min.js"
+  integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+  crossorigin="anonymous"></script>
+</head>
+
+<body>
+<h1>
+    Information.....
+    Yes: <input type="checkbox" checked="false" onclick="clickCheckBox()" />
+    No: <input type="checkbox" checked="false" />
+
+    <br />
+    <br />
+
+    <img id="RandomImage" src="https://farm4.staticflickr.com/3691/11268502654_f28f05966c_m.jpg" width="380" height="240" />
+    <input id="Change" type="button" value="Change Image" />
+
+</h1>
+
+    Row: <input id="row" type="text" value="0" />
+    Column: <input id="col" type="text" value="0" />
+    Text: <input id="text" type="text" value="" />
+    <input type="button" onclick="modifyCell()" value="Modify Value" />
+
+    <table>
+            <tr>
+                    <td style="padding-left: 30px;">1</td>
+                    <td style="padding-left: 30px;">0</td>
+                    <td style="padding-left: 30px;">0</td>
+                    <td style="padding-left: 30px;">0</td>
+            </tr>
+            <tr>
+                    <td style="padding-left: 30px;">0</td>
+                    <td style="padding-left: 30px;">1</td>
+                    <td style="padding-left: 30px;">0</td>
+                    <td style="padding-left: 30px;">0</td>
+            </tr>
+            <tr>
+                    <td style="padding-left: 30px;">0</td>
+                    <td style="padding-left: 30px;">0</td>
+                    <td style="padding-left: 30px;">1</td>
+                    <td style="padding-left: 30px;">0</td>
+            </tr>
+            <tr>
+                    <td style="padding-left: 30px;">0</td>
+                    <td style="padding-left: 30px;">0</td>
+                    <td style="padding-left: 30px;">0</td>
+                    <td style="padding-left: 30px;">1</td>
+            </tr>
+    </table>
+    
+</body>

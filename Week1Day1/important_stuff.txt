@@ -1,0 +1,51 @@
+
+
+<string>.toLocale({en-us})
+<string>.toUpperCase()
+<string>.length
+
+null, undefined, 0, NaN, "", '' evaluate to false, rest to true
+
+delete map["key"];    to delete a property
+
+- Objects (arrays or user defined objs) assigned to other objects, copies references instead of a deep copy.
+    Deep copy needs to be implemented by us.
+
+- == and != should not be used (does implicit type conversions). Instead use === & !===  (implicit type conversions, so types are checked properly)
+
+// * JS parser to highlight == and != uses
+
+// Numeric conversion, unary + operator (does not affect numbers)
+
+Eg: 
+let x = 1;
+alert(+x);
+
+alert(+true);   // 1
+alert(+"");     // 0
+
+// Exponentiation operator : **
+
+document.querySelector("#id);
+
+
+// Event handler binding with a DOM element
+
+onclick="handler()"
+
+button.addEventListener("click", functionname)
+
+
+/// Defer script execution till document is loaded <script ... defer>
+//  <body onload="loaded()">
+
+// Stop event bubbling: event.stopPropagation();
+
+event.clientX and clientY for exact coordinates
+
+
+/// Custom ebents
+
+new CustomEvent("name", {optional params})
+.addEventListener()
+.dispatchEvent()
